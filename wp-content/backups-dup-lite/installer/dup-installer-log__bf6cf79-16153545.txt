@@ -1,0 +1,927 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 10:57:02
+* VERSION: 1.4.7
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.26                                |8.1.4
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-08-16 15:35:45
+WP VERSION__________: 6.0.1
+DUP VERSION_________: 1.4.7
+DB__________________: 5.7.36
+DB TABLES___________: 91
+DB ROWS_____________: 6,115
+DB FILE SIZE________: 4.42MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.1.4 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4
+DOC ROOT____________: "C:/xampp/htdocs/newversion"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/newversion/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/newversion/20220816_quinniecosmeticshop_[HASH]_20220816153545_archive.zip"
+SIZE________________: 87.43MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/newversion/20220816_quinniecosmeticshop_[HASH]_20220816153545_archive.zip"
+SIZE________________: 87.43MBFile timestamp set to Current: 2023-03-09 22:59:24
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:59:24 - RUNTIME: 142.0556 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:00:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 5.7.36
+FILE SIZE:	dup-database__[HASH].sql (4.45MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/newversion/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	91
+RENAMED TABLES:	0
+QUERIES RAN:	6209
+
+wp_actionscheduler_actions: (40)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (4)
+wp_actionscheduler_logs: (116)
+wp_commentmeta: (3)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_gla_budget_recommendations: (4230)
+wp_gla_merchant_issues: (0)
+wp_gla_shipping_rates: (0)
+wp_gla_shipping_times: (0)
+wp_links: (0)
+wp_mailpoet_custom_fields: (0)
+wp_mailpoet_dynamic_segment_filters: (0)
+wp_mailpoet_feature_flags: (0)
+wp_mailpoet_forms: (0)
+wp_mailpoet_log: (0)
+wp_mailpoet_mapping_to_external_entities: (0)
+wp_mailpoet_newsletter_links: (0)
+wp_mailpoet_newsletter_option: (0)
+wp_mailpoet_newsletter_option_fields: (22)
+wp_mailpoet_newsletter_posts: (0)
+wp_mailpoet_newsletter_segment: (0)
+wp_mailpoet_newsletter_templates: (76)
+wp_mailpoet_newsletters: (0)
+wp_mailpoet_scheduled_task_subscribers: (0)
+wp_mailpoet_scheduled_tasks: (34)
+wp_mailpoet_segments: (3)
+wp_mailpoet_sending_queues: (0)
+wp_mailpoet_settings: (15)
+wp_mailpoet_statistics_bounces: (0)
+wp_mailpoet_statistics_clicks: (0)
+wp_mailpoet_statistics_forms: (0)
+wp_mailpoet_statistics_newsletters: (0)
+wp_mailpoet_statistics_opens: (0)
+wp_mailpoet_statistics_unsubscribes: (0)
+wp_mailpoet_statistics_woocommerce_purchases: (0)
+wp_mailpoet_stats_notifications: (0)
+wp_mailpoet_subscriber_custom_field: (0)
+wp_mailpoet_subscriber_ips: (0)
+wp_mailpoet_subscriber_segment: (1)
+wp_mailpoet_subscriber_tag: (0)
+wp_mailpoet_subscribers: (1)
+wp_mailpoet_tags: (0)
+wp_mailpoet_user_agents: (0)
+wp_mailpoet_user_flags: (0)
+wp_options: (332)
+wp_postmeta: (497)
+wp_posts: (119)
+wp_smush_dir_images: (0)
+wp_term_relationships: (30)
+wp_term_taxonomy: (22)
+wp_termmeta: (17)
+wp_terms: (22)
+wp_usermeta: (34)
+wp_users: (1)
+wp_wc_admin_note_actions: (58)
+wp_wc_admin_notes: (50)
+wp_wc_category_lookup: (5)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_attributes_lookup: (0)
+wp_wc_product_download_directories: (2)
+wp_wc_product_meta_lookup: (10)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yoast_indexable: (82)
+wp_yoast_indexable_hierarchy: (77)
+wp_yoast_migrations: (23)
+wp_yoast_primary_term: (13)
+wp_yoast_seo_links: (49)
+Removed '122' cache/transient rows
+
+INSERT DATA RUNTIME: 1.7834 sec.
+STEP-2 COMPLETE @ 11:00:09 - RUNTIME: 1.7981 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:00:16
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Quinnie Cosmetic Shop"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/wamp64/www/project"
+path_new______________: "C:/xampp/htdocs/newversion"
+siteurl_______________: "http://localhost:8080/newversion"
+url_old_______________: "http://localhost/project"
+url_new_______________: "http://localhost:8080/newversion"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   116][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_budget_recommendations"___________________[ROWS:  4230][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_mapping_to_external_entities"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_tag"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_mailpoet_tags"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   332][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   497][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   119][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  2:"C:\/wamp64\/www\/project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  4:"C:\wamp64\www\project" ===========================> "C:/xampp/htdocs/newversion"
+	SEARCH  5:"C:\\wamp64\\www\\project" ========================> "C:\/xampp\/htdocs\/newversion"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cproject" ===================> "C%3A%2Fxampp%2Fhtdocs%2Fnewversion"
+	SEARCH  7:"//localhost/project" =============================> "//localhost:8080/newversion"
+	SEARCH  8:"\/\/localhost\/project" ==========================> "\/\/localhost:8080\/newversion"
+	SEARCH  9:"%2F%2Flocalhost%2Fproject" =======================> "%2F%2Flocalhost%3A8080%2Fnewversion"
+	SEARCH 10:"https://localhost:8080/newversion" ===============> "http://localhost:8080/newversion"
+	SEARCH 11:"https:\/\/localhost:8080\/newversion" ============> "http:\/\/localhost:8080\/newversion"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8080%2Fnewversion" =====> "http%3A%2F%2Flocalhost%3A8080%2Fnewversion"
+--------------------------------------
+SCANNED:	Tables:91 	|	 Rows:5993 	|	 Cells:37198 
+UPDATED:	Tables:11 	|	 Rows:333 	|	 Cells:499 
+ERRORS:		0 
+RUNTIME:	0.572400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:00:17 - RUNTIME: 0.6617 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
